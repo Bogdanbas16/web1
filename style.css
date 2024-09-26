@@ -1,0 +1,320 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+
+body {
+    margin-left: 40px;
+    margin-top: 40px;
+    padding: 0;
+}
+
+.container {
+    display: flex;
+}
+
+
+
+
+.sidebar {
+    height: 1319px;
+    width: 370px;
+    background-color: rgba(30, 41, 57, 1);
+    color: rgba(255, 255, 255, 1);
+
+
+}
+
+.sidebar_img {
+    padding-top: 40px;
+}
+
+
+.sidebar_content {
+    padding-top: 40px;
+    padding-left: 40px;
+
+}
+
+h2.contacts {
+    font-size: 22px;
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+}
+
+p.contacts {
+    font-size: 16px;
+}
+
+span.ne {
+    padding-left: 10px;
+    opacity: .5;
+    font-size: 14px;
+
+}
+
+ul.contacts {
+    list-style: none;
+    padding: 0;
+}
+
+
+
+
+
+
+
+.skill {
+    padding-top: 27px;
+}
+
+h2.skill {
+    font-size: 22px;
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+}
+
+
+li.skill {
+    font-size: 14px;
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+
+    padding: 0;
+    line-height: 1.8;
+    /* Зменшити міжрядковий інтервал */
+}
+
+
+li.skill::marker {
+    color: rgba(251, 109, 58, 1);
+}
+
+
+
+.soft {
+    padding-top: 30px;
+}
+
+h2.soft {
+    font-size: 22px;
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+}
+
+
+li.soft {
+    font-size: 14px;
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+
+    padding: 0;
+    line-height: 1.8;
+    /* Зменшити міжрядковий інтервал */
+}
+
+
+li.soft::marker {
+    color: rgba(251, 109, 58, 1);
+}
+
+
+
+
+
+p.heade {
+    font-size: 16px;
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+}
+
+
+h1.name {
+    font-size: 30px;
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+}
+
+
+p.for_me {
+    color: rgba(89, 89, 89, 1);
+    font-size: 14px;
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    padding-bottom: 40px;
+}
+
+
+
+
+
+
+
+h2.projects {
+    font-size: 22px;
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+}
+
+
+
+.projects ol {
+    margin: 0;
+    padding-left: 18px;
+
+}
+
+
+.projects li {
+    margin-bottom: 7px;
+}
+
+.projects li::marker {
+    font-weight: bold;
+    /* Жирна нумерація */
+    font-size: 14px;
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+}
+
+a {
+    color: rgba(89, 89, 89, 1);
+    font-size: 14px;
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+
+
+
+
+.work {
+    padding-top: 35px;
+}
+
+p.work_experience {
+    font-size: 22px;
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+}
+
+p.front-end_developer {
+    font-size: 16px;
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+}
+
+span.freelance {
+    color:  rgba(251, 109, 58, 1);
+}
+
+p.date {
+    font-size: 12px;
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    color:  rgba(168, 168, 168, 1);
+}
+
+
+li.work {
+    font-size: 14px;
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    color:  rgba(89, 89, 89, 1);
+
+    padding: 0;
+    line-height: 1.8;
+
+}
+
+
+p.manager {
+    font-size: 16px;
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+}
+
+span.manager {
+    color:  rgba(251, 109, 58, 1);
+}
+
+
+
+
+
+
+.education {
+    padding-top: 20px;
+}
+
+
+p.education {
+    font-size: 22px;
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+}
+
+p.university {
+    font-size: 16px;
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+    color: rgba(251, 109, 58, 1);
+}
+
+p.management {
+    font-size: 14px;
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+
+}
+
+
+
+
+.content {
+    flex: 1;
+    padding: 50px;
+
+}
+
+.header {
+    display: flex;
+    flex-direction: column;
+    /* Вирівнюємо елементи вертикально */
+}
